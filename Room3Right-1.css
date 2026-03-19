@@ -1,0 +1,62 @@
+    body {
+            background-image: url(Room3Right1.jpeg);
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+    h1 {color:white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 700;
+      font-style: normal;
+      }
+    
+    h2 {color: white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 15pt;
+    }
+
+.rightBtn{
+  position: absolute;
+
+  background-color: none;
+  box-shadow: inset 0 0 0 1px white;
+  border: none;
+  padding: 1px;
+  top: 100px;    /* distance from top */
+  left: 500px;   /* distance from left */
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.rightBtn:hover {
+  background-color: grey;
+}
+
+.middleBtn{
+  position: absolute;
+
+  background-color: none;
+  box-shadow: inset 0 0 0 1px white;
+  border: none;
+  padding: 1px;
+  top: 500px;    /* distance from top */
+  left: 650px;   /* distance from left */
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.middleBtn:hover {
+  background-color: grey;
+}
