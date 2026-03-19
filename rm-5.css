@@ -1,0 +1,72 @@
+/*for the DOG*/
+
+.clock {
+  position: absolute;
+  top: 55%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+.clock img{
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  transform: scale(1);
+  transform-origin: center;
+  transition: transform 0.4s ease;
+}
+
+.clock img:hover{
+    filter: drop-shadow(0 0 30px rgba(255, 212, 59, 100));
+}
+
+    body {
+  		background-image: url('room5.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+			}
+		h1 {color:white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 700;
+      font-style: normal;
+      }
+    
+    h2 {color: black;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 15pt;
+      text-align: center;
+    }
+
+  /*for the cat DIALOGUE*/
+
+#toggleBtn {
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    top: 600px;
+    left: 800px;
+}
+
+#toggleBtn:hover {
+      filter: drop-shadow(0 0 30px rgba(255, 212, 59, 100));
+    }
+
+#bottomRect {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    opacity: 75%;
+    display: none;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#bottomRect.show{
+    display: block
+}

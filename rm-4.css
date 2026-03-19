@@ -1,0 +1,135 @@
+/*for the door*/
+    .door img{
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    width: 50%;
+    scale: 0.5;
+    }
+    .door img{
+      position: center;
+      width: 300px;
+      height: auto;
+      transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .door img:hover {
+      filter: drop-shadow(0 0 30px rgba(255, 212, 59, 100));
+    }
+
+
+/*FONT declaring*/
+    .averia-libre-light {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 300;
+            font-style: normal;
+          }
+
+    .averia-libre-regular {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+    .averia-libre-bold {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 700;
+            font-style: normal;
+          }
+
+    body {
+        background-image: url('anxiety room.jpeg');
+        background-repeat: no-repeat;
+        background-size: 1515px 860px;
+      }
+  h1 {color:white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 700;
+      font-style: normal;
+      }
+    
+    h2 {color: black;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 15pt;
+      text-align: center;
+    }
+
+
+/*DRAGGING THINGS*/
+.draggable {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    cursor: grab;
+    user-select: none;
+}
+
+.draggable:active {
+    cursor: grabbing;
+}
+
+.draggable img{
+    width: 500px;
+    height: auto;
+    pointer-events: none;
+    user-select: none;
+}
+
+.draggable:hover {
+    filter: drop-shadow(0 0 30px rgba(255, 212, 59, 100));
+}
+
+.draggable:nth-child(1) { top: 30%; left: 30%; }
+.draggable:nth-child(2) { top: 32%; left: 40%; }
+.draggable:nth-child(3) { top: 34%; left: 35%; }
+.draggable:nth-child(4) { top: 36%; left: 30%; }
+.draggable:nth-child(5) { top: 38%; left: 35%; }
+.draggable:nth-child(6) { top: 40%; left: 40%; }
+.draggable:nth-child(7) { top: 42%; left: 30%; }
+.draggable:nth-child(8) { top: 44%; left: 35%; }
+.draggable:nth-child(9) { top: 46%; left: 40%; }
+.draggable:nth-child(10) { top: 48%; left: 30%; }
+.draggable:nth-child(11) { top: 50%; left: 35%; }
+.draggable:nth-child(12) { top: 52%; left: 40%; }
+.draggable:nth-child(13) { top: 56%; left: 30%; }
+.draggable:nth-child(14) { top: 58%; left: 35%; }
+.draggable:nth-child(15) { top: 60%; left: 40%; }
+
+/*for the cat DIALOGUE*/
+
+#toggleBtn {
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    top: 550px;
+    left: 1000px;
+
+}
+
+#toggleBtn:hover {
+      filter: drop-shadow(0 0 30px rgba(255, 212, 59, 100));
+    }
+
+#bottomRect {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    opacity: 75%;
+    display: none;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#bottomRect.show{
+    display: block
+}
+
