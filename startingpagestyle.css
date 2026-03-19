@@ -1,0 +1,66 @@
+/*FONT*/
+    .averia-libre-light {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 300;
+            font-style: normal;
+          }
+
+    .averia-libre-regular {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+    .averia-libre-bold {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 700;
+            font-style: normal;
+          }
+
+.button {
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    width: 100px;
+    box-shadow: inset 0 0 0 1px white;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+/*Defining things*/
+    body {
+            background-image: url('titlescdreen.jpg');
+            background-repeat: no-repeat;
+            background-size: 1520px 860px;
+            }
+
+     h1 {color:white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 25px;
+      bottom: 250px;
+      left: 50%;
+      position: fixed;
+      transform: translateX(-50%);
+      }
+
+     h2 {color:white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 25px;
+      bottom: 100px;
+      left: 50%;
+      position: fixed;
+      transform: translateX(-50%);
+      }
+
+
+
+
+
