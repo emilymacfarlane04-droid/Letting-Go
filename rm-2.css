@@ -1,0 +1,130 @@
+/*for the door*/
+    .door img{
+      margin-left: 150px;
+      margin-right: auto;
+      margin-top: 1125px;
+      width: 50%;
+      scale: 0.5;
+    }
+    .door img{
+      position: absolute;
+      width: 300px;
+      height: auto;
+      transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .door img:hover {
+      filter: drop-shadow(0 0 30px rgba(255, 212, 59, 100));
+    }
+
+/*for the WINDOW*/
+.window img{
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 50%;
+    transform: scale(0.2);
+    margin-left: 400px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+}
+
+.window img:hover{
+     filter: drop-shadow(0 0 100px rgba(255, 212, 59, 1));
+}
+
+/*for the cat DIALOGUE*/
+
+#toggleBtn {
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    top: 550px;
+    left: 850px;
+}
+
+#toggleBtn:hover {
+      filter: drop-shadow(0 0 30px rgba(255, 212, 59, 100));
+    }
+
+#bottomRect {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    opacity: 75%;
+    display: none;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#bottomRect.show{
+    display: block
+}
+
+/*for the TV*/
+.tv img{
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 200px;
+    scale: 0.7;
+    position: absolute;
+    top: 440px;
+    left: 450px;
+}
+
+.tv img:hover{
+     filter: drop-shadow(0 0 30px rgba(255, 212, 59, 1));
+}
+
+/*FONT declaring*/
+    .averia-libre-light {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 300;
+            font-style: normal;
+          }
+
+    .averia-libre-regular {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+    .averia-libre-bold {
+            font-family: "Averia Libre", system-ui;
+            font-weight: 700;
+            font-style: normal;
+          }
+
+/*Defining things*/
+    body {
+        user-select: none;
+        background-image: url("Room2backfinal.png");
+        background-color: black;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: center calc(50% - 200px);
+        background-size: cover;
+        height: 2800px;
+        width: 1500px;
+    }
+
+    h1 {color:white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 700;
+      font-style: normal;
+      }
+    
+    h2 {color: black;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 15pt;
+      text-align: center;
+      width: 500px;
+    }
