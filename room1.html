@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>LettingGo</title>
+<!-- css file -->
+		<link rel="stylesheet" href="rm-1.css">	
+
+<!-- FONT LINKS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	</head>
+	
+<!-- beginning -->
+	<body>
+		
+		<audio autoplay muted loop preload="auto" id="audio" src="scary-background.wav" type="audio"></audio>
+
+		<img src="cat 2.png" id="toggleBtn" alt="cat sitting">
+		<div id="bottomRect">
+			<h2>Hi! I'm 'Cat'. I'm going to give you advice as you go through this journey.</h2>
+		</div>
+
+		<img src="lampchain.png" id="toggleThing" alt="lampchain">
+
+		<div id="doorThing">
+			<img class="lamp" src="lampforroom1.png" alt="lamp">
+			<a id="doorLink" class="door" href="rm1-quote.html" alt="door" onclick="playSound(event)"> <img src="door.png" alt="door"></a>
+
+			<audio id="soundEffect" src="door-openingsound.wav" preload="auto"></audio>
+		</div>
+
+		<script src="room-1.js"></script>
+	</body>
+</html>
