@@ -1,0 +1,33 @@
+/*for the door*/
+    .door img{
+      margin-left: 600px;
+      margin-right: auto;
+      margin-top: 100px;
+      width: 300px;
+      scale: 0.5;
+    }
+    .door img{
+      position: absolute;
+      height: auto;
+      transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+    .door img:hover {
+      filter: drop-shadow(0 0 30px rgba(255, 212, 59, 100));
+    }
+
+    body {
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+    h1 {color:white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 700;
+      font-style: normal;
+      }
+    
+    h2 {color: white;
+      font-family: "Averia Libre", system-ui;
+      font-weight: 300;
+      font-style: normal;
+    }

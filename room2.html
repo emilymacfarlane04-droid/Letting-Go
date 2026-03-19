@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>LettingGo</title>
+		
+<!-- css file -->
+		<link rel="stylesheet" href="rm-2.css">	
+
+<!-- FONT LINKS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+
+		<audio autoplay muted loop preload="auto" id="audio" src="Room2Sounds.wav" type="audio"></audio>
+		
+		<div class="window" alt="window">
+			<img src="full window.png" id="image-element1">
+			<audio id="soundEffect" src="glass-breaking.mp3" preload="auto"></audio>
+		</div>
+
+		<div class="tv" alt="television">
+			<img src="tv.png" id="image-element2" onclick="playSound(event)">
+			<audio id="soundEffect" src="glass-breaking.mp3" preload="auto"></audio>
+		</div>
+
+		<img src="cat 2.png" id="toggleBtn" alt="cat sitting">
+		<div id="bottomRect">
+			<h2>Breaking things provides temporary release. Once the dust settles, look for an underlying cause.</h2>
+		</div>
+
+		<div class="door" alt="door">
+			<a href="rm2-quote.html" id="doorLink" onclick="playSound1(event)"> <img src="doorforanger.png"></a>
+
+			<audio id="doorEffect" src="door-openingsound.wav" preload="auto"></audio>
+		</div>
+
+		<script src="room-2.js"></script>
+	</body>
+</html>
